@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 h1{
     font-size: 50px;
 }
@@ -18,7 +22,7 @@ h2{
     color: #0072ce;
 }
 
-img:not(.logo):not(.hero):not(img[alt="it takes two"]):not(img[alt="playstation plus"]):not(img[alt="playstation now"]){
+img:not(img[alt="logo sony"]):not(.logo):not(img[alt="it takes two"]):not(img[alt="playstation plus"]):not(img[alt="playstation now"]){
     width: 100%;
 }
 
@@ -112,6 +116,7 @@ img[alt="giochi mensili"]{
 /* playstation now */
 .ps_now{
     background-color: #161c3b;
+    padding: 20px 0;
 }
 
 img[alt="avengers"]{
