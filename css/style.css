@@ -53,7 +53,9 @@ img[alt="returnal logo"]{
 
 /* immagini giochi */
 img[alt="returnal"],
-img[alt="ratchet and clank"]{
+img[alt="ratchet and clank"],
+img[alt="tony hawks pro skater"],
+img[alt="crash bandicoot 4 its about time"]{
     border-radius: 20px;
 }
 
