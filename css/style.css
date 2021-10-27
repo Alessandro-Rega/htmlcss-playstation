@@ -18,7 +18,7 @@ h2{
     color: #0072ce;
 }
 
-img:not(.logo):not(.hero):not(img[alt="it takes two"]):not(img[alt="playstation plus"]){
+img:not(.logo):not(.hero):not(img[alt="it takes two"]):not(img[alt="playstation plus"]):not(img[alt="playstation now"]){
     width: 100%;
 }
 
@@ -109,6 +109,20 @@ img[alt="giochi mensili"]{
     display: none;
 }
 
+/* playstation now */
+.ps_now{
+    background-color: #161c3b;
+}
+
+img[alt="avengers"]{
+    display: none;
+}
+
+img[alt="playstation now"]{
+    height: 70px;
+}
+
+
 
 
 
@@ -122,6 +136,10 @@ img[alt="giochi mensili"]{
     }
 
     img[alt="giochi mensili"]{
+        display: none;
+    }
+
+    img[alt="avengers"]{
         display: none;
     }
 }
@@ -141,6 +159,10 @@ img[alt="giochi mensili"]{
 
     .ps_plus{
         padding: 0;
+    }
+
+    img[alt="avengers"]{
+        display: block;
     }
 }
 
