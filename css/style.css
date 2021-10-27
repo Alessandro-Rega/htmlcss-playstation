@@ -6,7 +6,11 @@ h1{
     background-color: #cd3d0f;
 }
 
-/* xs 576px */
+.scritta_blu{
+    color: #0072ce;
+}
+
+/* xs fino a 575px */
 
 /* HEADER */
 
@@ -39,9 +43,21 @@ img[alt="returnal logo"]{
     height: 80px;
 }
 
+/* immagini giochi */
+img[alt="returnal"],
+img[alt="ratchet and clank"]{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
 
 /* MEDIA QUERY */
 
+/* sm 576px */
+@media screen and (min-width: 576px){
+}
 
 /* lg 992px */
 @media screen and (min-width: 992px){
