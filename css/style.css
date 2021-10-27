@@ -10,11 +10,15 @@ h2{
     background-color: #cd3d0f;
 }
 
+.btn_marrone{
+    background-color: #d9dadc;
+}
+
 .scritta_blu{
     color: #0072ce;
 }
 
-img:not(.logo):not(.hero):not(img[alt="it takes two"]){
+img:not(.logo):not(.hero):not(img[alt="it takes two"]):not(img[alt="playstation plus"]){
     width: 100%;
 }
 
@@ -88,6 +92,21 @@ img[alt="it takes two"]{
     height: 200px;
 }
 
+/* playstation plus */
+.ps_plus{
+    background-color: #bebcbb;
+}
+
+img[alt="playstation plus"]{
+    height: 70px;
+}
+
+img[alt="giochi mensili"]{
+    display: none;
+}
+
+
+
 
 
 /* MEDIA QUERY */
@@ -95,6 +114,10 @@ img[alt="it takes two"]{
 /* sm 576px */
 @media screen and (min-width: 576px){
     .center span{
+        display: none;
+    }
+
+    img[alt="giochi mensili"]{
         display: none;
     }
 }
@@ -105,6 +128,10 @@ img[alt="it takes two"]{
         justify-content: space-between;
     }
     .center span{
+        display: block;
+    }
+
+    img[alt="giochi mensili"]{
         display: block;
     }
 }
