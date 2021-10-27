@@ -22,7 +22,7 @@ h2{
     color: #0072ce;
 }
 
-img:not(img[alt="logo sony"]):not(.logo):not(img[alt="it takes two"]):not(img[alt="playstation plus"]):not(img[alt="playstation now"]):not(img[alt="logo play"]):not(img[alt="sie logo"]){
+img:not(img[alt="logo sony"]):not(.logo):not(.hero):not(img[alt="it takes two"]):not(img[alt="playstation plus"]):not(img[alt="playstation now"]):not(img[alt="logo play"]):not(img[alt="sie logo"]){
     width: 100%;
 }
 
