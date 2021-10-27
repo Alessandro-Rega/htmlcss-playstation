@@ -59,7 +59,10 @@ img[alt="returnal logo"]{
 img[alt="returnal"],
 img[alt="ratchet and clank"],
 img[alt="tony hawks pro skater"],
-img[alt="crash bandicoot 4 its about time"]{
+img[alt="crash bandicoot 4 its about time"],
+img[alt="under 20"],
+img[alt="week sale"],
+img[alt="free to play"]{
     border-radius: 20px;
 }
 
@@ -95,6 +98,7 @@ img[alt="it takes two"]{
 /* playstation plus */
 .ps_plus{
     background-color: #bebcbb;
+    padding: 20px 0;
 }
 
 img[alt="playstation plus"]{
@@ -133,6 +137,10 @@ img[alt="giochi mensili"]{
 
     img[alt="giochi mensili"]{
         display: block;
+    }
+
+    .ps_plus{
+        padding: 0;
     }
 }
 
