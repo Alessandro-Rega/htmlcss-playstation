@@ -22,7 +22,7 @@ h2{
     color: #0072ce;
 }
 
-img:not(img[alt="logo sony"]):not(.logo):not(img[alt="it takes two"]):not(img[alt="playstation plus"]):not(img[alt="playstation now"]){
+img:not(img[alt="logo sony"]):not(.logo):not(img[alt="it takes two"]):not(img[alt="playstation plus"]):not(img[alt="playstation now"]):not(img[alt="logo play"]):not(img[alt="sie logo"]){
     width: 100%;
 }
 
@@ -127,9 +127,18 @@ img[alt="playstation now"]{
     height: 70px;
 }
 
+/* footer */
+footer{
+    background-color: #00439c;
+}
 
+img[alt="logo play"]{
+    height: 80px;
+}
 
-
+img[alt="sie logo"]{
+    height: 50px;
+}
 
 
 /* MEDIA QUERY */
