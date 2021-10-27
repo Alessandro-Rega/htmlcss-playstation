@@ -14,7 +14,7 @@ h2{
     color: #0072ce;
 }
 
-img:not(.logo):not(.hero){
+img:not(.logo):not(.hero):not(img[alt="it takes two"]){
     width: 100%;
 }
 
@@ -71,6 +71,22 @@ img[alt="ratchet and clank"]{
 .center span{
     display: none;
 }
+
+/* it takes two */
+.takes_two{
+    height: 700px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+img[alt="it takes two"]{
+    height: 200px;
+}
+
+
 
 /* MEDIA QUERY */
 
