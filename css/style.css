@@ -1,3 +1,10 @@
+h1{
+    font-size: 50px;
+}
+
+.btn_orange{
+    background-color: #cd3d0f;
+}
 
 /* xs 576px */
 
@@ -18,6 +25,19 @@ img[alt="logo sony"]{
     display: none;
 }
 
+/* jumbo */
+.jumbotron{
+    height: 700px;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+img[alt="returnal logo"]{
+    height: 80px;
+}
 
 
 /* MEDIA QUERY */
