@@ -45,6 +45,11 @@ img[alt="logo sony"]{
     display: none;
 }
 
+/* divisore */
+.divisore{
+    height: 121px;
+}
+
 /* jumbo */
 .jumbotron{
     height: 700px;
@@ -57,6 +62,15 @@ img[alt="logo sony"]{
 
 img[alt="returnal logo"]{
     height: 80px;
+}
+
+/* banner giochi */
+.banner_giochi > div > div > div:hover{
+    transform: scale(1.05) translateY(-5%);
+    transition: all 0.2s ease-in-out;
+}
+.banner_giochi img:hover{
+    border: 2px solid #0072ce;
 }
 
 /* immagini giochi */
